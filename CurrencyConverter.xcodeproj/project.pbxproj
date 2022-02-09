@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		C526498A57D7EF721B930135 /* Pods_CurrencyConverter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C01A17B0AD11D3E2C9C7BD3 /* Pods_CurrencyConverter.framework */; };
+		DF02F2B727B45BB40028751C /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF02F2B627B45BB40028751C /* TableViewCell.swift */; };
+		DF02F2B927B4600D0028751C /* CurrenciesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF02F2B827B4600D0028751C /* CurrenciesVC.swift */; };
 		DF0F4D5627B2A97500871F16 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0F4D5527B2A97500871F16 /* AppDelegate.swift */; };
 		DF0F4D5827B2A97500871F16 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0F4D5727B2A97500871F16 /* SceneDelegate.swift */; };
 		DF0F4D5A27B2A97500871F16 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF0F4D5927B2A97500871F16 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 		41654FE76209B538D10180BF /* Pods-CurrencyConverter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyConverter.release.xcconfig"; path = "Target Support Files/Pods-CurrencyConverter/Pods-CurrencyConverter.release.xcconfig"; sourceTree = "<group>"; };
 		821B0BF57DF4BCB50FBFDD52 /* Pods-CurrencyConverter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyConverter.debug.xcconfig"; path = "Target Support Files/Pods-CurrencyConverter/Pods-CurrencyConverter.debug.xcconfig"; sourceTree = "<group>"; };
 		9C01A17B0AD11D3E2C9C7BD3 /* Pods_CurrencyConverter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyConverter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF02F2B627B45BB40028751C /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		DF02F2B827B4600D0028751C /* CurrenciesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrenciesVC.swift; sourceTree = "<group>"; };
 		DF0F4D5227B2A97500871F16 /* CurrencyConverter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyConverter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF0F4D5527B2A97500871F16 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF0F4D5727B2A97500871F16 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -78,6 +82,8 @@
 				DF0F4D5527B2A97500871F16 /* AppDelegate.swift */,
 				DF0F4D5727B2A97500871F16 /* SceneDelegate.swift */,
 				DF0F4D5927B2A97500871F16 /* ViewController.swift */,
+				DF02F2B827B4600D0028751C /* CurrenciesVC.swift */,
+				DF02F2B627B45BB40028751C /* TableViewCell.swift */,
 				DF0F4D5B27B2A97500871F16 /* Main.storyboard */,
 				DF0F4D5E27B2A97600871F16 /* Assets.xcassets */,
 				DF0F4D6027B2A97600871F16 /* LaunchScreen.storyboard */,
@@ -210,6 +216,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF02F2B727B45BB40028751C /* TableViewCell.swift in Sources */,
+				DF02F2B927B4600D0028751C /* CurrenciesVC.swift in Sources */,
 				DF0F4D5A27B2A97500871F16 /* ViewController.swift in Sources */,
 				DF0F4D5627B2A97500871F16 /* AppDelegate.swift in Sources */,
 				DF0F4D5827B2A97500871F16 /* SceneDelegate.swift in Sources */,

@@ -43,6 +43,13 @@ class ViewController: UIViewController {
         }
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "toCurrenciesVC" {
+            let destinationVC = segue.destination as! CurrenciesVC
+            destinationVC.allCurrencies = currencies
+        }
+    }
+    
     func getCurrencies() {
         let url = URL(string: "http://data.fixer.io/api/latest?access_key=6bfcb3fcfc09d12a384941990fb6b8c0&format=1")
         let session = URLSession.shared
