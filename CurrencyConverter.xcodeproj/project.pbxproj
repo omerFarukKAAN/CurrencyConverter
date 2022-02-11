@@ -16,6 +16,7 @@
 		DF0F4D5D27B2A97500871F16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0F4D5B27B2A97500871F16 /* Main.storyboard */; };
 		DF0F4D5F27B2A97600871F16 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF0F4D5E27B2A97600871F16 /* Assets.xcassets */; };
 		DF0F4D6227B2A97600871F16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF0F4D6027B2A97600871F16 /* LaunchScreen.storyboard */; };
+		DF2C966627B6F4F6009001ED /* CurrencyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF2C966527B6F4F6009001ED /* CurrencyVC.swift */; };
 		DFD75B8A27B4039200498109 /* iOSDropDown.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD75B8927B4039200498109 /* iOSDropDown.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		DF0F4D5E27B2A97600871F16 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF0F4D6127B2A97600871F16 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF0F4D6327B2A97600871F16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF2C966527B6F4F6009001ED /* CurrencyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyVC.swift; sourceTree = "<group>"; };
 		DFD75B8927B4039200498109 /* iOSDropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = iOSDropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -84,6 +86,7 @@
 				DF0F4D5927B2A97500871F16 /* ViewController.swift */,
 				DF02F2B827B4600D0028751C /* CurrenciesVC.swift */,
 				DF02F2B627B45BB40028751C /* TableViewCell.swift */,
+				DF2C966527B6F4F6009001ED /* CurrencyVC.swift */,
 				DF0F4D5B27B2A97500871F16 /* Main.storyboard */,
 				DF0F4D5E27B2A97600871F16 /* Assets.xcassets */,
 				DF0F4D6027B2A97600871F16 /* LaunchScreen.storyboard */,
@@ -219,6 +222,7 @@
 				DF02F2B727B45BB40028751C /* TableViewCell.swift in Sources */,
 				DF02F2B927B4600D0028751C /* CurrenciesVC.swift in Sources */,
 				DF0F4D5A27B2A97500871F16 /* ViewController.swift in Sources */,
+				DF2C966627B6F4F6009001ED /* CurrencyVC.swift in Sources */,
 				DF0F4D5627B2A97500871F16 /* AppDelegate.swift in Sources */,
 				DF0F4D5827B2A97500871F16 /* SceneDelegate.swift in Sources */,
 			);
