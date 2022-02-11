@@ -15,11 +15,11 @@ class CurrenciesVC: UITableViewController {
         super.viewDidLoad()
         
         //print(allCurrencies)
-        
-        tableView.register(TableViewCell.self, forCellReuseIdentifier: "cell")
 
         tableView.dataSource = self
         tableView.delegate = self
+        
+        //tableView.register(TableViewCell.self, forCellReuseIdentifier: "currenciesCell")
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -41,15 +41,15 @@ class CurrenciesVC: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell : TableViewCell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! TableViewCell
+        let cell : TableViewCell = tableView.dequeueReusableCell(withIdentifier: "currenciesCell", for: indexPath) as! TableViewCell
         let keys = Array(allCurrencies.keys)
         let currentKey = keys[indexPath.row]
+
+        cell.currencyLabel?.text = currentKey
         
-        //cell.textLabel?.text = "test"
-        cell.currencyLabel?.text = "currentKey"
-        
-        if let amount = allCurrencies[currentKey] as? String {
-            cell.amountLabel?.text = amount
+        if let amount = allCurrencies[currentKey] as? Double {
+            //print(NSString(format:"%.2f", avgTemp))
+            cell.amountLabel?.text = String(NSString(format:"%.2f", amount))
         }
         // Configure the cell...
 

@@ -23,6 +23,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         getCurrencies()
+        
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(dismissKeyboard))
+        view.addGestureRecognizer(tapRecognizer)
+        
+        navigationItem.title = "Currency Converter"
 
         dropDown.didSelect { selectedText, index, id in
             self.currency = selectedText
@@ -30,6 +35,10 @@ class ViewController: UIViewController {
         secondDropDown.didSelect { selectedText, index, id in
             self.convertedCurrency = selectedText
         }
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func convertClicked(_ sender: Any) {

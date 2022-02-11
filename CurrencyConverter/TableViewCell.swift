@@ -9,8 +9,6 @@ import UIKit
 
 class TableViewCell: UITableViewCell {
     
-    @IBOutlet weak var amoLabel: UILabel!
-    @IBOutlet weak var curLabel: UILabel!
     @IBOutlet weak var amountLabel: UILabel!
     @IBOutlet weak var currencyLabel: UILabel!
     
